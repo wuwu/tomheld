@@ -1,0 +1,60 @@
+Arguments: 
+  /usr/local/Cellar/node/8.5.0/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/wuwu/.gem/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/wuwu/.rvm/gems/ruby-2.1.1/bin:/Users/wuwu/.rvm/gems/ruby-2.1.1@global/bin:/Users/wuwu/.composer/vendor/bin:/Users/wuwu/.rvm/bin:/Users/wuwu/.composer/vendor/bin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.5.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "tomheld",
+    "version": "1.0.0",
+    "description": "Nuxt.js project",
+    "author": "Florian Ewald <wuwu@gmx.net>",
+    "private": true,
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate",
+      "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "nuxt": "^1.0.0-rc11"
+    },
+    "devDependencies": {
+      "babel-eslint": "^7.2.3",
+      "eslint": "^4.3.0",
+      "eslint-config-standard": "^10.2.1",
+      "eslint-loader": "^1.9.0",
+      "eslint-plugin-html": "^3.1.1",
+      "eslint-plugin-import": "^2.7.0",
+      "eslint-plugin-node": "^5.1.1",
+      "eslint-plugin-promise": "^3.5.0",
+      "eslint-plugin-standard": "^3.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/wuwu/Sites/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/util/fs.js:554:57
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+      at /usr/local/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:13
+      at <anonymous>
